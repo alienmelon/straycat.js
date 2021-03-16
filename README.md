@@ -33,3 +33,5 @@ Note that you can change the cat's name by passing herekittykittykitty another s
 That's it! Your page is ready to call stray cats to it.
 
 ![A Stray Cat](http://tetrageddon.com/straycat/straycat_images/IMG_CAT_IDLE.gif)
+
+###### Note: You can also download a stray cat for your desktop [here](https://alienmelon.itch.io/stray-cat).
