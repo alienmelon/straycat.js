@@ -154,7 +154,6 @@ function herekittykittykitty(str_kittyname){
 		}
 	}
 	
-	//I AM HERE
 	function new_state(){
 		var str_oldState = str_currState;
 		//
@@ -216,7 +215,6 @@ function herekittykittykitty(str_kittyname){
 			new_state();
 		}
 		
-		//new_state
 	}
 	
 	function walkKitty(){
@@ -383,9 +381,6 @@ function herekittykittykitty(str_kittyname){
 		//starting animation
 		setState("drop");
 	}
-	
-
-	
 	
 	//__________________BOOTUP
 	
