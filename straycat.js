@@ -395,6 +395,8 @@ function herekittykittykitty(str_kittyname){
 		//listeners
 		kitty.addEventListener("mousedown", event_petCat); 
 		kitty.addEventListener("mouseup", event_petCatDone);
+		kitty.addEventListener("touchstart", event_petCat); 
+		kitty.addEventListener("touchend", event_petCatDone);
 		
 		//right click lets you carry the cat
 		kitty.addEventListener('contextmenu', e => {
