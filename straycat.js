@@ -154,6 +154,7 @@ function herekittykittykitty(str_kittyname){
 		}
 	}
 	
+	//I AM HERE
 	function new_state(){
 		var str_oldState = str_currState;
 		//
@@ -215,6 +216,7 @@ function herekittykittykitty(str_kittyname){
 			new_state();
 		}
 		
+		//new_state
 	}
 	
 	function walkKitty(){
@@ -382,6 +384,9 @@ function herekittykittykitty(str_kittyname){
 		setState("drop");
 	}
 	
+
+	
+	
 	//__________________BOOTUP
 	
 	function initKitty(){
@@ -395,8 +400,6 @@ function herekittykittykitty(str_kittyname){
 		//listeners
 		kitty.addEventListener("mousedown", event_petCat); 
 		kitty.addEventListener("mouseup", event_petCatDone);
-		kitty.addEventListener("touchstart", event_petCat); 
-		kitty.addEventListener("touchend", event_petCatDone);
 		
 		//right click lets you carry the cat
 		kitty.addEventListener('contextmenu', e => {
